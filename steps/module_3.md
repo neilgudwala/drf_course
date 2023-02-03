@@ -93,6 +93,7 @@ class Contact(
 ```
 
 2) Abstract models - You will notice that we are importing and using a few abstract models. Some are straight out of the box from django-extensions. However, I have my own that I like to use that uses a UUID instead of the default ID field. 
+
 a) Go ahead and make a new directory in /backend called utils
 b) Create a new file called model_abstracts.py and another called __init__.py
 c) Paste the following code into /backend/utils/model_abstracts.py
